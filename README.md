@@ -7,4 +7,5 @@ Pinout of internal swd connector of st-link:
 Wire your working programmer to the broken stlink, according the pinout above.
 Then, using stlink flash utility, upload firmware, that you can find in this repo.
 
-After all you can update firmware of your newly restored stlink with a new one from stm servers or, also, make it a jlink
+After all you can update firmware of your newly restored stlink with a new one from stm servers or, also, make it a jlink.
+Use tool from this repo to migrate your programmer to JLink, if original software from segger site tells you that hardware variant is unsupported
